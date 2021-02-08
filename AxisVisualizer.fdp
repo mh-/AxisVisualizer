@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="AxisVisualizer.swf" />
+    <movie fps="20" />
+    <movie width="300" />
+    <movie height="400" />
+    <movie version="9" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="classes" />
+    <class path="AxisPath" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option verbose="False" />
+    <option strict="False" />
+    <option infer="False" />
+    <option useMain="True" />
+    <option useMX="False" />
+    <option warnUnusedImports="False" />
+    <option traceMode="FlashOut" />
+    <option traceFunction="" />
+    <option libraryPrefix="" />
+    <option excludeFile="" />
+    <option groupClasses="False" />
+    <option frame="1" />
+    <option keep="True" />
+  </build>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="classes\AxisVisualizer.as" />
+  </compileTargets>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="library\Knob Interface Plate.png" bitmap="False" update="library\Knob Interface Plate.png" />
+    <asset path="library\kroe0656.ttf" />
+    <asset path="library\Testing Piece.png" bitmap="False" update="library\Testing Piece.png" />
+    <asset path="library\Forgotte.ttf" update="..\Forgotte.ttf" />
+    <asset path="library\Forgotte.ttf" />
+    <asset path="library\Gate Tester.png" bitmap="False" update="library\Gate Tester.png" />
+    <asset path="library\New Disk 2.png" bitmap="False" />
+    <asset path="library\New Disk 3_.png" bitmap="False" />
+    <asset path="library\AxisVisualizerBackground V4.png" bitmap="False" update="AxisVisualizerBackground V4.png" />
+    <asset path="library\Knob Interface Plate 2.png" bitmap="False" />
+  </library>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="library\FlashDevelop Logo.png" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="NewTab" />
+  </options>
+</project>
